@@ -106,7 +106,7 @@ img#logo{
 }
 .servicios-item{
     text-align: center;
-    border:1px solid black;
+
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
@@ -115,11 +115,30 @@ img#logo{
     height: 300px;
     margin: 2%;
     border-radius: 2%;
-    box-shadow: 0px 2px 10px 5px rgba(0,0,0,0.64)
+    box-shadow: 0px 2px 10px 5px rgba(0,0,0,0.64);
+    padding:2%;
 }
+
+.servicios-item h1{
+    color:black;
+}
+.servicios a{
+    text-decoration: none;
+    text-transform: none;
+}
+.card-text{
+    text-decoration: none;
+    text-transform: none;
+    color:black;
+}
+
 .servicios-item:hover{
-    box-shadow: 5px 7px 15px 10px rgba(0,0,0,0.64);
-    transition: 0.5s;
+    box-shadow: 8px 10px 18px 13px rgba(130, 176, 246, 0.64);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.techimg{
+    width:30%;
 }
 .trabajos {
     margin-top:10px;
@@ -177,4 +196,11 @@ h3{
 strong:hover{
     color: #32bdc1;
     transition: 0.5s;
+}
+
+.card-img-top{
+    width:30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
