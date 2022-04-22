@@ -15,6 +15,11 @@
     <script src="index.js"></script>
 </head>
 <body>
+
+    <div class="principio" id="principio">
+        <a href="#principio"><img src="/images/up-arrow.png" alt="" class="botonUp" id="botonArriba"></a>
+    </div>
+
    <header>
     <nav>
         <img id="logo" src="./images/fotoperfil.jpg" alt="Foto Perfil">
@@ -55,21 +60,28 @@
            <br>
            <br>
            <br>
-           <h1>Biografia</h1>
-           <p>Nací en Rosario,Argentina,en el año 92, y desde el año 2002 resido en Mallorca.<br>
-                Soy un amante de las cosas bien hechas,de que a veces lo complicado puede volverse sencillo.<br>
-                Creativo,dinámico,y me adapto a diferentes situaciones con facilidad.<br>
-                Desde 2020, decidí dar un giro a mi vida,y formarme como programador, una de mis pasiones,<br>
-                y emprender un nuevo camino con mucho por descubrir.</p>
+           <div class="row bio-item">
+               <div class="col-6">
+               <h1>+Bio</h1>
+               <p>Nací en Rosario,Argentina,en el año 92, y desde el año 2002 resido en Mallorca.<br>
+                    Soy un amante de las cosas bien hechas,de que a veces lo complicado puede volverse sencillo.<br>
+                    Creativo,dinámico,y me adapto a diferentes situaciones con facilidad.<br>
+                    Desde 2020, decidí dar un giro a mi vida,y formarme como programador, una de mis pasiones,<br>
+                    y emprender un nuevo camino con mucho por descubrir.</p>
+                </div>
+               <div class="col-6 fotoperfil2">
+                   <img class="fotoperfil2" src="/images/fotoperfil2.jpg" alt="">
+               </div>
+           </div>
        </section>
        <section id="servicios" class="serviciostitulo">
-        <h1>Servicios</h1>
-
-        <div class="row servicios">
+           
+           <h1>Servicios</h1>
+           <div class="row servicios">
             <div class="servicios-item">
                 <h1>Frontend</h1>
                 <a href="#contacto">
-                <div class="card" style="width: 18rem;">
+                <div class="cards" style="width: 18rem;">
                     <img src="./images/web-design.png" class="card-img-top" alt="...">
                     
                   </div>
@@ -78,7 +90,7 @@
             <div class="servicios-item">
                 <h1>Backend</h1>
                 <a href="#contacto">
-                <div class="card" style="width: 18rem;">
+                <div class="cards" style="width: 18rem;">
                     <img src="./images/backend.png" class="card-img-top" alt="...">
                    
                   </div>
@@ -87,7 +99,7 @@
             <div class="servicios-item">
                 <h1>Mantenimiento web</h1>
                 <a href="#contacto">
-                <div class="card" style="width: 18rem;">
+                <div class="cards" style="width: 18rem;">
                     <img src="./images/actualizar-pagina.png" class="card-img-top" alt="...">
                    
                   </div>
@@ -101,15 +113,34 @@
     
   
        <section id="trabajos" class="trabajos">
-           <h1>Trabajos</h1>
+           <h1>Tecnologias</h1>
+           <div class="container trabajosdiv">
            <div class="row">
-               <div class="col-4">hola</div>
-               <div class="col-4">hoa</div>
-               <div class="col-4">ha</div>
+               <div class="col-2">
+                   <img class="imgtrabajos" src="/images/html-5.png" alt="">
+               </div>
+               <div class="col-2">
+                <img class="imgtrabajos" src="/images/css-3.png" alt="">
+               </div>
+               <div class="col-2">
+                <img class="imgtrabajos" src="/images/bootstrap.png" alt="">
+            </div>
+            <div class="col-2">
+                <img class="imgtrabajos" src="/images/nodejs.png" alt="">
+            </div>
+            <div class="col-2">
+                <img class="imgtrabajos" src="/images/mysql.png" alt="">
+            </div>
+            <div class="col-2">
+                   <img class="imgtrabajos" src="/images/js.png" alt="">
+
+               </div>
            </div>
+        </div>
 
            
        </section>
+
        <section>
        <div id="contacto" class="contacto">
            <h1>¿Charlamos? ¡Estas son mis redes!</h1>
